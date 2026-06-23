@@ -1,24 +1,83 @@
 # angular22-agent-skills
 
-Angular 22 skill pack for `skills.sh`. This repository packages practical guidance for modern Angular architecture, templates, performance, testing, and runtime behavior in a publishable GitHub repo.
+![skills.sh Version](https://img.shields.io/badge/skills.sh-v1.0-blue)
+![Angular Target](https://img.shields.io/badge/Angular-v22-red)
 
-## Repository Purpose
+Production-ready Angular 22 skill pack for `skills.sh` and agent-driven development workflows.
 
-Use this repository as a reusable skill bundle for local agents and tools that understand the `skills.sh` manifest format. The content is intentionally opinionated so an agent can follow current Angular 22 patterns without drifting into legacy approaches.
+This repository gives coding agents a high-signal execution context for modern Angular architecture, including signals, native control flow, deferrable views, typed forms, Vitest, and zoneless runtime patterns.
 
-## Install
+## Why This Repository
 
-Add the repository to a local `skills.sh` environment with:
+- Enforces Angular 22-first decisions.
+- Reduces legacy drift in AI-generated code.
+- Gives repeatable, editor-agnostic setup paths.
+- Ships as a clean, publishable GitHub repository.
+
+## Quick Start
 
 ```bash
 npx skills add PavanAnguluri/angular22-agent-skills
 ```
 
-If you fork or mirror the repo, replace the namespace with your own GitHub account or organization.
+If you fork this repository, replace `PavanAnguluri/angular22-agent-skills` with your namespace.
 
-## What Is Included
+## Actionable Setup Guide
 
-The root manifest is [skills.sh.json](skills.sh.json), and it references these skill files:
+The following execution paths are designed to be copy-paste friendly across common AI coding environments.
+
+### Cursor
+
+1. Open your target Angular workspace in Cursor.
+2. Open Cursor terminal in the project root.
+3. Run:
+
+```bash
+npx skills add PavanAnguluri/angular22-agent-skills
+```
+
+4. Start your prompt with an instruction such as:
+	Use the installed Angular 22 skills and follow signals, control-flow blocks, Vitest, and zoneless guidance.
+
+### Windsurf
+
+1. Open the workspace in Windsurf.
+2. Use the integrated terminal at repository root.
+3. Run:
+
+```bash
+npx skills add PavanAnguluri/angular22-agent-skills
+```
+
+4. In your first agent message, explicitly tell it to apply this skills bundle.
+
+### Claude Code
+
+1. Open terminal in your project root.
+2. Install the skill repository:
+
+```bash
+npx skills add PavanAnguluri/angular22-agent-skills
+```
+
+3. When prompting Claude Code, include:
+	Follow the angular22-agent-skills repository standards for architecture, templates, testing, and runtime behavior.
+
+### GitHub Copilot
+
+1. Open the project in VS Code with Copilot enabled.
+2. In terminal, run:
+
+```bash
+npx skills add PavanAnguluri/angular22-agent-skills
+```
+
+3. In Copilot Chat, begin with:
+	Use the installed Angular 22 skills pack and enforce modern non-legacy patterns.
+
+## Skill Catalog
+
+The manifest is defined in [skills.sh.json](skills.sh.json), referencing:
 
 - [ng22-architecture-composition](skills/ng22-architecture-composition/SKILL.md)
 - [ng22-reactivity](skills/ng22-reactivity/SKILL.md)
@@ -30,53 +89,39 @@ The root manifest is [skills.sh.json](skills.sh.json), and it references these s
 - [ng22-vitest](skills/ng22-vitest/SKILL.md)
 - [ng22-zoneless](skills/ng22-zoneless/SKILL.md)
 
-Each skill file contains front matter plus a focused guide that covers one Angular 22 best-practice area.
+## Coverage Highlights
 
-## Coverage
+- Signal-centric state and derived computation.
+- Native template control flow using `@if`, `@for`, `@switch`, and `@defer`.
+- Feature-oriented standalone architecture.
+- Lazy routing and route guard discipline.
+- Typed reactive forms and explicit validation.
+- Vitest-oriented Angular testing strategies.
+- Zoneless-compatible UI update and async patterns.
 
-- Signals, computed values, signal inputs, and model binding.
-- Native block syntax for `@if`, `@for`, `@switch`, and `@defer`.
-- Feature-oriented architecture with standalone composition.
-- Route-level lazy loading and guard discipline.
-- Typed forms and explicit validation flow.
-- Vitest-based testing guidance for Angular projects.
-- Zoneless-friendly state updates, async boundaries, and SSR considerations.
-
-## Local Development
-
-If you want to edit or extend the repo locally, work from the repository root and keep the manifest and skill paths aligned:
-
-```bash
-git status
-```
+## Local Authoring Workflow
 
 When adding a new skill:
 
-1. Create a new `skills/<skill-name>/SKILL.md` file.
-2. Add the new path to `skills.sh.json`.
-3. Update this README so the new skill appears in the repository catalog.
-4. Validate that the manifest path resolves and that the skill has YAML front matter.
+1. Create `skills/<skill-name>/SKILL.md`.
+2. Add its path to [skills.sh.json](skills.sh.json).
+3. Update this README catalog section.
+4. Validate front matter and path resolution.
 
-## Publishing Workflow
+## Publish and Branch Workflow
 
-This repository is already initialized as a GitHub project and tracks the `develop` branch. If you need to recreate the publishing flow in a new environment, the basic sequence is:
+This repository is designed to be maintained via `develop` and promoted to `main` by pull request.
 
 ```bash
-git init
-git checkout -b develop
+git checkout develop
+git pull origin develop
 git add .
-git commit -m "Initial angular22-agent-skills"
-git remote add origin https://github.com/PavanAnguluri/angular22-agent-skills.git
-git push -u origin develop
+git commit -m "Update skills content"
+git push origin develop
 ```
 
-## Maintenance Notes
+Then open a PR from `develop` to `main` with a summary of changed skills and verification notes.
 
-- Keep examples modern and avoid legacy Angular patterns.
-- Keep each skill self-contained and easy to scan.
-- Prefer small, concrete examples over generic prose.
-- Update the manifest whenever a skill file changes location or name.
+## Project Standard
 
-## Repository Goal
-
-Make the catalog broad enough to cover architecture, templates, performance, forms, testing, and runtime behavior while staying concise enough for agents to use directly.
+Keep every skill concrete, up-to-date, and executable by agents with minimal ambiguity.
