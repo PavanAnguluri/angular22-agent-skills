@@ -1,0 +1,17 @@
+{
+  "$schema": "https://skills.sh/schema.json",
+  "name": "angular22-agent-skills",
+  "description": "Procedural knowledge and architectural guardrails for building modern Angular 22 apps.",
+  "categories": ["frameworks", "frontend", "architecture", "testing", "performance"],
+  "skills": [
+    "./skills/ng22-architecture-composition/SKILL.md",
+    "./skills/ng22-reactivity/SKILL.md",
+    "./skills/ng22-control-flow/SKILL.md",
+    "./skills/ng22-deferrable-views/SKILL.md",
+    "./skills/ng22-routing-lazy/SKILL.md",
+    "./skills/ng22-testing/SKILL.md",
+    "./skills/ng22-forms/SKILL.md",
+    "./skills/ng22-vitest/SKILL.md",
+    "./skills/ng22-zoneless/SKILL.md"
+  ]
+}
