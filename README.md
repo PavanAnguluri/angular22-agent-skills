@@ -88,6 +88,8 @@ The manifest is defined in [skills.sh.json](skills.sh.json), referencing:
 - [ng22-routing-lazy](skills/ng22-routing-lazy/SKILL.md)
 - [ng22-testing](skills/ng22-testing/SKILL.md)
 - [ng22-forms](skills/ng22-forms/SKILL.md)
+- [ng22-signal-forms](skills/ng22-signal-forms/SKILL.md)
+- [ng22-ssr-hydration](skills/ng22-ssr-hydration/SKILL.md)
 - [ng22-vitest](skills/ng22-vitest/SKILL.md)
 - [ng22-zoneless](skills/ng22-zoneless/SKILL.md)
 
@@ -98,6 +100,8 @@ The manifest is defined in [skills.sh.json](skills.sh.json), referencing:
 - Feature-oriented standalone architecture.
 - Lazy routing and route guard discipline.
 - Typed reactive forms and explicit validation.
+- Signal-centric forms with computed validation mapping.
+- SSR and hydration-safe patterns for browser boundary handling.
 - Vitest-oriented Angular testing strategies.
 - Zoneless-compatible UI update and async patterns.
 
@@ -127,3 +131,7 @@ Then open a PR from `develop` to `main` with a summary of changed skills and ver
 ## Project Standard
 
 Keep every skill concrete, up-to-date, and executable by agents with minimal ambiguity.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution flow, skill authoring standards, and community guardrails.
