@@ -2,6 +2,8 @@
 
 ![skills.sh Version](https://img.shields.io/badge/skills.sh-v1.0-blue)
 ![Angular Target](https://img.shields.io/badge/Angular-v22-red)
+![Angular](https://img.shields.io/badge/Angular-Framework-DD0031?logo=angular&logoColor=white)
+![Built with Angular 22](https://img.shields.io/badge/Built%20with-Angular%2022-DD0031?logo=angular&logoColor=white)
 
 Production-ready Angular 22 skill pack for `skills.sh` and agent-driven development workflows.
 
