@@ -11,6 +11,8 @@
     "./skills/ng22-routing-lazy/SKILL.md",
     "./skills/ng22-testing/SKILL.md",
     "./skills/ng22-forms/SKILL.md",
+    "./skills/ng22-signal-forms/SKILL.md",
+    "./skills/ng22-ssr-hydration/SKILL.md",
     "./skills/ng22-vitest/SKILL.md",
     "./skills/ng22-zoneless/SKILL.md"
   ]
