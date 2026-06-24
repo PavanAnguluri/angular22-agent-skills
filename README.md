@@ -1,9 +1,12 @@
+![Angular Logo](assets/images/angular-logo.png)
+
 # angular22-agent-skills
 
 ![skills.sh Version](https://img.shields.io/badge/skills.sh-v1.0-blue)
 ![Angular Target](https://img.shields.io/badge/Angular-v22-red)
 ![Angular](https://img.shields.io/badge/Angular-Framework-DD0031?logo=angular&logoColor=white)
 ![Built with Angular 22](https://img.shields.io/badge/Built%20with-Angular%2022-DD0031?logo=angular&logoColor=white)
+[![Live Package](https://img.shields.io/badge/skills.sh-Live%20Package-0A66C2)](https://www.skills.sh/pavananguluri/angular22-agent-skills)
 
 Production-ready Angular 22 skill pack for `skills.sh` and agent-driven development workflows.
 
@@ -21,6 +24,8 @@ This repository gives coding agents a high-signal execution context for modern A
 ```bash
 npx skills add PavanAnguluri/angular22-agent-skills
 ```
+
+Published package page: [skills.sh listing](https://www.skills.sh/pavananguluri/angular22-agent-skills).
 
 If you fork this repository, replace `PavanAnguluri/angular22-agent-skills` with your namespace.
 
